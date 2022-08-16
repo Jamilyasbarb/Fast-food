@@ -1,0 +1,33 @@
+.container {
+    position: relative;
+    width: 1000px;
+    display: flex;
+    align-items: center;
+}
+.content-menu {
+    position: relative;
+    width: 100%; 
+    display: flex;
+}
+
+.texto{
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.menu-price {
+    color: #666666;
+}
+
+.botao{
+    height: 40px;
+    margin-top: 28px;
+    margin-left: 100px;
+    position: absolute; 
+    right: 0;
+}

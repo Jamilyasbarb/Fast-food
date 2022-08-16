@@ -1,0 +1,14 @@
+a .quantItem, p{
+    color: white;
+    background-color: #5CB85C;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

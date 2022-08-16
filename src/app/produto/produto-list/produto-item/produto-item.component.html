@@ -1,0 +1,27 @@
+<div class="container clearfix">
+    <div class="content-menu">
+        <div>
+            <span>
+                <img src="https://www.picwich.com.br/wp-content/uploads/2016/10/lanche-american-burger.png"
+                alt="{{ produto.nome}}"
+                class="img-responsive"
+                style="max-height: 100px;">
+            </span>
+        </div>
+        <a>
+            <div class="texto">
+                <strong>
+                    <h4 class="list-group-item-heading" style="font-weight: bold;"> {{ produto.nome }}</h4>
+                </strong>
+                <em>
+                    <p class="menu-price"> R${{ produto.valor_unitario }}</p>
+                </em>
+                <p class="list-group-item-text">{{produto.descricao}}</p>
+            </div>
+        </a>
+        <button type="submit" (click)="onAddCarrinho()" class="btn btn-success botao">
+            ADD
+            <span class="glyphicon glyphicon-shopping-cart"></span>
+        </button>
+    </div>
+</div>

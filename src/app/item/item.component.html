@@ -1,0 +1,14 @@
+<div class="list-group-item clearfix" *ngFor="let carrinho of itens; let i = index">
+    <strong>
+        <p class="list-group-item-heading" style="font-weight: bold;"> {{ carrinho.produto.nome}}</p>
+        <p class="list-group-item-text" style="font-weight: bold;"> {{ carrinho.produto.descricao}}</p>
+    </strong>
+    <em>
+        <p class="list-group-item-text menu-price" > {{ carrinho.valor_unitario }}</p>
+    </em>
+    
+    <span class="pull-right glyphicon glyphicon-plus" style="cursor: pointer; margin-left: 20px;" (click)="onAdd(i)"></span>
+    <p class="list-group-item-text  pull-right" > {{ carrinho.quantidade }}</p>
+    <span class="pull-right glyphicon glyphicon-minus" style="cursor: pointer; margin-right: 20px;" (click)="onRemove(i)"></span>
+</div>
+<button class="btn btn-primary" routerLink="/cliente" *ngIf="flag">Finalizar Pedido</button>

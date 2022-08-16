@@ -1,0 +1,28 @@
+<div class="container">
+    <p class="pull-right">{{ mudaStatus }}</p>
+</div>
+
+<div class="list-group-item clearfix" >
+
+    <h4 class="list-group-item-heading">Dados</h4>
+    <em>
+        <p class="list-group-item-text menu-price" > {{ pedido.cliente.nome }}</p>
+    </em>
+    <em>
+        <p class="list-group-item-text menu-price" > {{ pedido.cliente.endereco }}</p>
+        <p class="list-group-item-text menu-price" > {{ pedido.cliente.cidade }}</p>
+        <p class="list-group-item-text menu-price" > {{ pedido.cliente.uf }}</p>
+    </em>
+  
+</div>
+
+<div class="list-group-item clearfix">
+    <h4 class="list-group-item-heading">Pedido</h4>  
+    <strong>
+        <div *ngFor="let item of itens; let i = index">
+            <p class="list-group-item-heading" style="font-weight: bold;"> {{ item.produto.nome }}</p>
+            <p class="list-group-item-heading" style="font-weight: bold;"> {{ item.produto.descricao }}</p>
+        </div>
+        <p class="list-group-item-text" style="font-weight: bold;"> {{ pedido.status }}</p>
+    </strong>
+</div>

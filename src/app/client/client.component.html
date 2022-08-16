@@ -1,0 +1,22 @@
+<form>
+    <div class="form-group">
+      <label for="nome">Nome:</label>
+      <input type="text" class="form-control" id="nome" placeholder="Seu nome completo" #nome>
+     
+    </div>
+    <div class="form-group">
+      <label for="endereco">Endereço:</label>
+      <input type="text" class="form-control" id="endereco" placeholder="Endereço" #endereco>
+    </div>
+    <div class="form-group">
+      <label for="cidade">Cidade:</label>
+      <input type="text" class="form-control" id="cidade" placeholder="Cidade" #cidade>
+    </div>
+    <div class="form-group">
+      <label for="uf">Uf:</label>
+      <input type="text" class="form-control" id="uf"  aria-describedby="avisoEndereco" placeholder="uf" #uf>
+      <small id="avisoEndereco" class="form-text text-muted">Nunca vamos compartilhar suas informações, com ninguém.</small>
+    </div>
+    <button type="submit" (click)="onClick(nome.value, endereco.value, cidade.value, uf.value)" class="btn btn-primary">Enviar</button>
+</form> 
+<!-- o cliente vai ir para o componente pedido!!! NAO ESQUECER -->
