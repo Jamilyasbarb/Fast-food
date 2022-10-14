@@ -1,5 +1,29 @@
 # FastFood
 
+Aplicação para adicionar itens ao carrinho, inscrever os dados do cliente e registrar o pedido no banco atrelado aos dados da pessoa que corresponde o pedido.
+
+# Telas
+
+## Cardapio
+
+![cardapio](https://user-images.githubusercontent.com/101207167/195923832-390d9d01-280d-4ef8-b40d-133f80566867.png)
+
+
+## Carrinho
+
+![carrinho](https://user-images.githubusercontent.com/101207167/195923963-fac5e3e4-81bf-43df-b0ac-500a0f2fcbac.png)
+
+
+## Formulário cliente
+
+![formcliente](https://user-images.githubusercontent.com/101207167/195924146-4f0b58a4-41ee-435d-a536-22bcdf431331.png)
+
+
+## Pedido com todos os dados
+
+![pedido](https://user-images.githubusercontent.com/101207167/195925075-9a0903bf-5438-4936-b0d1-9c5252e2f9d5.png)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
