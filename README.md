@@ -11,7 +11,8 @@ Aplicação para adicionar itens ao carrinho, inscrever os dados do cliente e re
 
 ## Carrinho
 
-![image](https://user-images.githubusercontent.com/101207167/195940588-17a7d29d-99d1-4d32-b038-8c0d4506b7b0.png)
+![carrinho](https://user-images.githubusercontent.com/101207167/195940740-9d48cc45-d81d-4b06-97c2-83b5742bfc95.png)
+
 
 ## Formulário cliente
 
@@ -20,7 +21,7 @@ Aplicação para adicionar itens ao carrinho, inscrever os dados do cliente e re
 
 ## Pedido com todos os dados
 
-![pedido](https://user-images.githubusercontent.com/101207167/195925075-9a0903bf-5438-4936-b0d1-9c5252e2f9d5.png)
+![image](https://user-images.githubusercontent.com/101207167/195940588-17a7d29d-99d1-4d32-b038-8c0d4506b7b0.png)
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
