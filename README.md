@@ -11,8 +11,7 @@ Aplicação para adicionar itens ao carrinho, inscrever os dados do cliente e re
 
 ## Carrinho
 
-![carrinho](https://user-images.githubusercontent.com/101207167/195923963-fac5e3e4-81bf-43df-b0ac-500a0f2fcbac.png)
-
+![image](https://user-images.githubusercontent.com/101207167/195940588-17a7d29d-99d1-4d32-b038-8c0d4506b7b0.png)
 
 ## Formulário cliente
 
