@@ -6,7 +6,7 @@ Aplicação para adicionar itens ao carrinho, inscrever os dados do cliente e re
 
 ## Cardapio
 
-![cardapio](https://user-images.githubusercontent.com/101207167/195923832-390d9d01-280d-4ef8-b40d-133f80566867.png)
+![card](https://user-images.githubusercontent.com/101207167/195939111-b8df6105-2758-48eb-98f3-94a3864a0867.png)
 
 
 ## Carrinho
